@@ -25,6 +25,21 @@ div,header,section,nav,main,footer,h1,ul,li,ol{
     align-items: center;
 }
 
+.bg{
+    background-image: url(/imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.3;
+    position: absolute;
+    z-index: -1;
+    width: 95vw;
+    height:100px;
+}
+
+.marca-titulo{
+  color: black;
+}
+
 nav.marca-menu{
     width:252px;
 }
@@ -167,7 +182,7 @@ li.menu-item:hover{
     color: #D10024;
   }
 .rodape{
-    width:96%;
+    width:95vw;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
